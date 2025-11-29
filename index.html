@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aquila – E-commerce</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aquila – modern e-commerce landing page with products, about, and contact sections.">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+<header class="bg-white shadow">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+    <div class="flex justify-between h-16">
+      <div class="flex-shrink-0 flex items-center">
+        <a href="#home" class="text-2xl font-bold text-gray-900">aquila</a>
+      </div>
+      <div class="hidden sm:flex sm:space-x-8">
+        <a href="#home" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">Home</a>
+        <a href="#products" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">Products</a>
+        <a href="#about" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">About Us</a>
+        <a href="#contact" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+  <section id="home" class="pt-12 pb-16 text-center">
+    <h1 class="text-4xl font-extrabold sm:text-5xl">Welcome to Aquila</h1>
+    <p class="mt-4 text-lg text-gray-600">Discover the best products and enjoy a seamless shopping experience.</p>
+    <div class="mt-8">
+      <img src="https://placehold.co/600x400?text=modern%20e-commerce%20hero" alt="E-commerce hero image" class="mx-auto w-full max-w-2xl rounded-lg shadow-md">
+    </div>
+  </section>
+
+  <section id="products" class="pt-12 pb-16">
+    <h2 class="text-3xl font-bold text-center mb-8">Our Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <article class="border rounded-lg p-4 flex flex-col">
+        <img src="https://placehold.co/600x400?text=product%201" alt="Product 1" class="h-48 w-full object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold mb-2">Product One</h3>
+        <p class="text-gray-600 flex-grow">High quality item that meets all your needs.</p>
+        <button class="mt-4 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Add to Cart</button>
+      </article>
+      <article class="border rounded-lg p-4 flex flex-col">
+        <img src="https://placehold.co/600x400?text=product%202" alt="Product 2" class="h-48 w-full object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold mb-2">Product Two</h3>
+        <p class="text-gray-600 flex-grow">Premium quality for discerning customers.</p>
+        <button class="mt-4 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Add to Cart</button>
+      </article>
+      <article class="border rounded-lg p-4 flex flex-col">
+        <img src="https://placehold.co/600x400?text=product%203" alt="Product 3" class="h-48 w-full object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold mb-2">Product Three</h3>
+        <p class="text-gray-600 flex-grow">Affordable and reliable for everyday use.</p>
+        <button class="mt-4 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Add to Cart</button>
+      </article>
+      <article class="border rounded-lg p-4 flex flex-col">
+        <img src="https://placehold.co/600x400?text=product%204" alt="Product 4" class="h-48 w-full object-cover rounded-md mb-4">
+        <h3 class="text-xl font-semibold mb-2">Product Four</h3>
+        <p class="text-gray-600 flex-grow">Exclusive design for modern lifestyles.</p>
+        <button class="mt-4 bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Add to Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="pt-12 pb-16 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-8">About Us</h2>
+    <p class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+      Aquila is dedicated to providing the best online shopping experience. With a focus on quality, affordability, and customer satisfaction, we bring you a curated selection of products that fit your lifestyle.
+    </p>
+  </section>
+
+  <section id="contact" class="pt-12 pb-16">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+    <form class="max-w-xl mx-auto space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-900">Name</label>
+        <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-900">Email</label>
+        <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-900">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="bg-white border-t border-gray-200 py-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
+    © 2025 Aquila. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
